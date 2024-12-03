@@ -11,9 +11,23 @@ body{
 }
 
 nav{
-    color:red;
+    color:rgb(135, 216, 243);
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 2, 68);
+    height: 80px;
+    width: 100%;
+}
+
+nav div ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav div ul li{
+    display: flex;
+    margin:0 30px;
 }
 
 
