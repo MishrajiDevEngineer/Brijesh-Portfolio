@@ -23,6 +23,8 @@ nav{
 nav div ul{
     display: flex;
     justify-content: center;
+    font-size: 150%;
+    margin-left: 30%;
 }
 
 nav div ul li{
@@ -30,4 +32,45 @@ nav div ul li{
     margin:0 30px;
 }
 
+.left{
+    font-size:250%
+}
+
+.firstsection{
+    width: 50%;
+    left:0;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.firstsection div{
+    font-size: 70px;
+    position: relative;
+}
+
+.secondsection{
+    width: 50%;
+    left: 50%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    top: 25%;
+}
+
+#namespanid{
+    color:yellow;
+
+}
+
+#webdevspanid{
+    color:orange;
+}
+
+img{
+    transform: scale(1.5);
+}
 
