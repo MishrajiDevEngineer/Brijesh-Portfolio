@@ -1,45 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>Brijesh - A Web Developer</title>
-    
+    <title>Brijesh Portfolio</title>
+
 </head>
+
 <body>
-    <header>
+    <header class="navheader">
         <nav>
             <div class="left">Brijesh's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>Services</li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li>Skills</li>
+                    <li>Qualification</li>
                     <li>Projects</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li>Contact-Me</li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="firstsection">
-            <div>
-                Hi, I am <span id="namespanid">Brijesh Mishra</span><br>& I Am a<br><span id="webdevspanid">Web Developer.</span> <br><br>
-                Bridging the Gap Between <br> "< Imagination and Reality >"
+        <section id="Home" class="firstsection">
+            <div id="firstsectionleft">
+                <h1 id="firstsectionheading">
+                    <span id="h1hispanid">Hi, I'm </span> <br>
+                    <span id="namespanid">Brijesh Mishra,</span><br>
+                    <span id="devspanid">A Full Stack Developer</span>
+                </h1>
+                <p id="devintroid">
+                <h3>&#x2022; Bridging the gap between Imagination and Reality </h3>
+                </p> <br>
+                <p id="devdecid">Helping People turn their ideas into Site's & Apps. <span id="devdecspanid">I
+                        Speak</span> in <span id="devdecspanid">CODE</span> So You don't Have To.</p>
+            </div>
+
+            <div id="firstsectionright">
+                <img class="devimg" src="img/webdev.jpg" alt="Web Developer png">
             </div>
         </section>
 
-        <section class="secondsection">
-            <div>
-                <img src="img/webdev.jpg">
+        <section id="About" class="aboutsection">
+            <div class="aboutme">
+                <h1>About Me</h1>
+                <p id="introdeadingid">My Introduction</p>
+
+                <div id="aboutmeid">
+                    I'm a BE-CSE(Bachelor of Engineering in Computer Science) student of Chandigarh University.
+                    I am enthusiastic to contribute my passion
+                    for technology and problem-solving. I have a
+                    firm grasp of the fundamental programming
+                    languages such as HTML,CSS,JavaScript, java
+                    and a rudimentary comprehension of
+                    python. <br>
+                    I can drive quality and efficiency within the
+                    team with my skills, which eventually leads
+                    to mutual growth and success. I’m excited to
+                    work with you to accomplish our goals. <br><br>
+
+                    Passionate about technology and an avid reader. I have a self-motivated and can-do attitude,
+                    thriving in challenging and dynamic environments. Seeking a competitive position to enhance my
+                    skills and contribute to a professional organization. I'm very much passionate to learn new stuff
+                    that interests me and can help me to get better.
+                </div>
+            </div>
+
+            <div class="aboutdetails">
+                <div class="aboutdiv">
+                    <span class="aboutInfoTitle">6.60+</span> <br>
+                    <span class="aboutInfoName">Aggregate <br>&nbsp&nbsp CGPA</span>
+                </div>
+
+                <div class="aboutdiv">
+                    <span class="aboutInfoTitle">03+</span> <br>
+                    <span class="aboutInfoName">Projects</span>
+                </div>
+
+                <div class="aboutdiv">
+                    <span class="aboutInfoTitle">03+</span> <br>
+                    <span class="aboutInfoName">&nbsp Months <br>Experience</span>
+                </div>
+            </div>
+
+            <div class="aboutbutton">
+                <button class="aboutdownloadbutton" type="button"><a href="assets/Brijesh_Resume.pdf"
+                        download="Brijesh_Resume">Download CV</a></button>
             </div>
         </section>
+
+        <section id="skills" class="skillsection">
+            <div class="skilldiv">
+                <h2 class="skillheading">Skills</h2>
+                <p class="skillpara">My Technical Level</p>
+            </div>
+
+            <div class="mainskill">
+                <div class="leftskilldiv">
+                    <div class="upperskilldiv toggle-menu">
+                        <h2>Programming Languages</h2>
+                        <ul class="dropdown-menu">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>SQL</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+
+                    <div class="lowerskilldiv toggle-menu">
+                        <h2>IT Constructs</h2>
+                        <ul class="dropdown-menu">
+                            <li>DBMS</li>
+                            <li>Data Structure & Algorithm</li>
+                            <li>Xampp</li>
+                            <li>OOPS Concepts</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="rightskilldiv">
+                    <div class="upperskilldiv toggle-menu">
+                        <h2>Technologies</h2>
+                        <ul class="dropdown-menu">
+                            <li>Git & GitHub</li>
+                            <li>HTML/CSS</li>
+                            <li>React.js</li>
+                            <li>SQL</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="lowerskilldiv toggle-menu">
+                        <h2>Certification</h2>
+                        <ul class="dropdown-menu">
+                            <li>Programming Foundation with HTML, CSS, JavaScript, Coursera
+                                Duke University
+                            </li>
+                            <li> 
+                                Certificate of Python Training | Solitaire Infosys
+                            </li>
+                            <li>
+                                Django, JavaScript, jQuery Certificate, University of Michigan
+                            </li>
+                            <li>
+                                DEATHON-2021- Innovative Presentation Certificate for “UVC Corona Disinfection Conveyor Machine” | NPIU
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
 
     </footer>
+
+    <script src="JavaScript.js"></script>
 </body>
+
 </html>
